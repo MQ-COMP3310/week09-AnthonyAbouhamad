@@ -30,7 +30,7 @@ You should first initialise the database as follows:
 This should create an sqlite database under the instance directory. You can view the contents of the database using the sqlite command line interface as follows:
 
 sqlite3 instance/db.sqlite
-> .schema  
+p> .schema  
 CREATE TABLE user (
 	id INTEGER NOT NULL, 
 	email VARCHAR(100), 
